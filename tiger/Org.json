@@ -1,0 +1,4462 @@
+{
+    "limits": {
+        "AnalyticsExternalDataSizeMB": {
+            "Max": 40960,
+            "Remaining": 40960
+        },
+        "CdpAiInferenceApiMonthlyLimit": {
+            "Max": 500000000,
+            "Remaining": 500000000
+        },
+        "ConcurrentAsyncGetReportInstances": {
+            "Max": 200,
+            "Remaining": 200
+        },
+        "ConcurrentEinsteinDataInsightsStoryCreation": {
+            "Max": 5,
+            "Remaining": 5
+        },
+        "ConcurrentEinsteinDiscoveryStoryCreation": {
+            "Max": 2,
+            "Remaining": 2
+        },
+        "ConcurrentSyncReportRuns": {
+            "Max": 20,
+            "Remaining": 20
+        },
+        "ContentDistBandwidthLimitMB": {
+            "Max": 51200,
+            "Remaining": 51200
+        },
+        "ContentDistViewLimit": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "ContentPublicationLimit": {
+            "Max": 200000,
+            "Remaining": 200000
+        },
+        "DailyAnalyticsDataflowJobExecutions": {
+            "Max": 60,
+            "Remaining": 60
+        },
+        "DailyAnalyticsUploadedFilesSizeMB": {
+            "Max": 102400,
+            "Remaining": 102400
+        },
+        "DailyApiRequests": {
+            "Max": 5000000,
+            "Remaining": 4997691
+        },
+        "DailyAsyncApexExecutions": {
+            "Max": 250000,
+            "Remaining": 250000
+        },
+        "DailyAsyncApexTests": {
+            "Max": 2660,
+            "Remaining": 2660
+        },
+        "DailyBulkApiBatches": {
+            "Max": 15000,
+            "Remaining": 15000
+        },
+        "DailyBulkV2QueryFileStorageMB": {
+            "Max": 976562,
+            "Remaining": 976562
+        },
+        "DailyBulkV2QueryJobs": {
+            "Max": 10000,
+            "Remaining": 10000
+        },
+        "DailyDeliveredPlatformEvents": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "DailyDurableGenericStreamingApiEvents": {
+            "Max": 1000000,
+            "Remaining": 1000000
+        },
+        "DailyDurableStreamingApiEvents": {
+            "Max": 1000000,
+            "Remaining": 1000000
+        },
+        "DailyEinsteinDataInsightsStoryCreation": {
+            "Max": 1000,
+            "Remaining": 1000
+        },
+        "DailyEinsteinDiscoveryOptimizationJobRuns": {
+            "Max": 25,
+            "Remaining": 25
+        },
+        "DailyEinsteinDiscoveryPredictAPICalls": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "DailyEinsteinDiscoveryPredictionsByCDC": {
+            "Max": 500000,
+            "Remaining": 500000
+        },
+        "DailyEinsteinDiscoveryStoryCreation": {
+            "Max": 100,
+            "Remaining": 100
+        },
+        "DailyFunctionsApiCallLimit": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "DailyGenericStreamingApiEvents": {
+            "Max": 10000,
+            "Remaining": 10000
+        },
+        "DailyMetadataRetrievesWithDependencies": {
+            "Max": 25,
+            "Remaining": 25
+        },
+        "DailyStandardVolumePlatformEvents": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "DailyStreamingApiEvents": {
+            "Max": 1000000,
+            "Remaining": 1000000
+        },
+        "DailyWorkflowEmails": {
+            "Max": 989000,
+            "Remaining": 989000
+        },
+        "DataStorageMB": {
+            "Max": 200,
+            "Remaining": 198
+        },
+        "DurableStreamingApiConcurrentClients": {
+            "Max": 2000,
+            "Remaining": 2000
+        },
+        "FileStorageMB": {
+            "Max": 200,
+            "Remaining": 200
+        },
+        "HourlyAsyncReportRuns": {
+            "Max": 1200,
+            "Remaining": 1200
+        },
+        "HourlyDashboardRefreshes": {
+            "Max": 200,
+            "Remaining": 200
+        },
+        "HourlyDashboardResults": {
+            "Max": 5000,
+            "Remaining": 5000
+        },
+        "HourlyDashboardStatuses": {
+            "Max": 999999999,
+            "Remaining": 999999999
+        },
+        "HourlyElevateAsyncReportRuns": {
+            "Max": 1200,
+            "Remaining": 1200
+        },
+        "HourlyElevateSyncReportRuns": {
+            "Max": 500,
+            "Remaining": 500
+        },
+        "HourlyLongTermIdMapping": {
+            "Max": 100000,
+            "Remaining": 100000
+        },
+        "HourlyManagedContentPublicRequests": {
+            "Max": 50000,
+            "Remaining": 50000
+        },
+        "HourlyODataCallout": {
+            "Max": 20000,
+            "Remaining": 20000
+        },
+        "HourlyPublishedPlatformEvents": {
+            "Max": 250000,
+            "Remaining": 250000
+        },
+        "HourlyPublishedStandardVolumePlatformEvents": {
+            "Max": 100000,
+            "Remaining": 100000
+        },
+        "HourlyShortTermIdMapping": {
+            "Max": 100000,
+            "Remaining": 100000
+        },
+        "HourlySyncReportRuns": {
+            "Max": 500,
+            "Remaining": 500
+        },
+        "HourlyTimeBasedWorkflow": {
+            "Max": 1000,
+            "Remaining": 1000
+        },
+        "MassEmail": {
+            "Max": 5000,
+            "Remaining": 5000
+        },
+        "MaxContentDocumentsLimit": {
+            "Max": 30000000,
+            "Remaining": 30000000
+        },
+        "MonthlyEinsteinDiscoveryStoryCreation": {
+            "Max": 500,
+            "Remaining": 500
+        },
+        "Package2VersionCreates": {
+            "Max": 6,
+            "Remaining": 6
+        },
+        "Package2VersionCreatesWithoutValidation": {
+            "Max": 500,
+            "Remaining": 500
+        },
+        "PermissionSets": {
+            "Max": 1500,
+            "Remaining": 1498,
+            "CreateCustom": {
+                "Max": 1000,
+                "Remaining": 998
+            }
+        },
+        "PlatformEventTriggersWithParallelProcessing": {
+            "Max": 5,
+            "Remaining": 5
+        },
+        "PrivateConnectOutboundCalloutHourlyLimitMB": {
+            "Max": 0,
+            "Remaining": 0
+        },
+        "PublishCallbackUsageInApex": {
+            "Max": 5242880,
+            "Remaining": 5242880
+        },
+        "SingleEmail": {
+            "Max": 5000,
+            "Remaining": 5000
+        },
+        "StreamingApiConcurrentClients": {
+            "Max": 2000,
+            "Remaining": 2000
+        }
+    },
+    "metadataCount": {
+        "ApexClass": 355,
+        "ApexPage": 35,
+        "ConnectedApplication": 10,
+        "CustomPermission": 0,
+        "ExternalDataSource": 0,
+        "FieldPermissions": 20286,
+        "FieldSecurityClassification": 5,
+        "Group": 6,
+        "GroupMember": 7,
+        "NamedCredential": 0,
+        "ObjectPermissions": 11668,
+        "PackageLicense": 5,
+        "PermissionSet": 282,
+        "PermissionSetAssignment": 95,
+        "PermissionSetGroup": 16,
+        "PermissionSetLicense": 156,
+        "Profile": 26,
+        "QueueSobject": 0,
+        "SetupAssistantStep": 0,
+        "SetupEntityAccess": 9440,
+        "User": 32,
+        "UserLicense": 15,
+        "UserPackageLicense": 0,
+        "UserRole": 0
+    },
+    "salesCloudObjectCount": {
+        "Account": 5,
+        "AccountContactRole": 0,
+        "Asset": 13,
+        "Campaign": 0,
+        "CampaignMember": 0,
+        "Case": 0,
+        "CaseStatus": 4,
+        "Contact": 0,
+        "Contract": 0,
+        "ContractContactRole": 0,
+        "Lead": 0,
+        "Opportunity": 0,
+        "OpportunityCompetitor": 0,
+        "OpportunityContactRole": 0,
+        "OpportunityStage": 6,
+        "Order": 32,
+        "Partner": 0,
+        "PartnerRole": 11
+    },
+    "serviceCloudObjectCount": {
+        "Account": 5,
+        "Case": 0,
+        "CaseComment": 0,
+        "CaseHistory": 0,
+        "CaseSolution": 0,
+        "Contact": 0,
+        "Solution": 0
+    },
+    "packages": [
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/PlatformEventMetricsType"
+            },
+            "Name": "PlatformEventMetricsType",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinALM"
+            },
+            "Name": "EinsteinALM",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/UddCache"
+            },
+            "Name": "UddCache",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/PlatformMonitoring"
+            },
+            "Name": "PlatformMonitoring",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/GenieDataModelRecs"
+            },
+            "Name": "GenieDataModelRecs",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/sf_com_apps"
+            },
+            "Name": "Salesforce.com",
+            "IsSalesforce": false
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/AsyncQuery"
+            },
+            "Name": "AsyncQuery",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher"
+            },
+            "Name": "salesforce.com",
+            "IsSalesforce": false
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinDataDiscovery"
+            },
+            "Name": "EinsteinDataDiscovery",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Lma"
+            },
+            "Name": "Lma",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/MyTrailhead"
+            },
+            "Name": "MyTrailhead",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/SfInfoModel"
+            },
+            "Name": "SfInfoModel",
+            "IsSalesforce": true
+        }
+    ],
+    "EDSAccount": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Account"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Account",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "001",
+        "Label": "Account",
+        "MasterLabel": "Account",
+        "NamespacePrefix": null
+    },
+    "EDSContact": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Contact"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Contact",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "003",
+        "Label": "Contact",
+        "MasterLabel": "Contact",
+        "NamespacePrefix": null
+    },
+    "EDSAccountContactRole": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/AccountContactRole"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "AccountContactRole",
+        "InternalSharingModel": "ControlledByParent",
+        "ExternalSharingModel": "ControlledByParent",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": false,
+        "IsIdEnabled": true,
+        "IsLayoutable": false,
+        "IsMruEnabled": false,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": false,
+        "KeyPrefix": "02Z",
+        "Label": "Account Contact Role",
+        "MasterLabel": "Account Contact Role",
+        "NamespacePrefix": null
+    },
+    "EDSOpportunity": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Opportunity"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Opportunity",
+        "InternalSharingModel": "Read",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "006",
+        "Label": "Opportunity",
+        "MasterLabel": "Opportunity",
+        "NamespacePrefix": null
+    },
+    "EDSOpportunityContactRole": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/OpportunityContactRole"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "OpportunityContactRole",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "ReadWrite",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": false,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": false,
+        "KeyPrefix": "00K",
+        "Label": "Opportunity Contact Role",
+        "MasterLabel": "Opportunity Contact Role",
+        "NamespacePrefix": null
+    },
+    "EDSOpportunityCompetitor": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/OpportunityCompetitor"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "OpportunityCompetitor",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "ReadWrite",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": false,
+        "IsIdEnabled": true,
+        "IsLayoutable": false,
+        "IsMruEnabled": false,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": false,
+        "KeyPrefix": "00J",
+        "Label": "Opportunity: Competitor",
+        "MasterLabel": "Opportunity: Competitor",
+        "NamespacePrefix": null
+    },
+    "EDSLead": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Lead"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Lead",
+        "InternalSharingModel": "ReadWriteTransfer",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "00Q",
+        "Label": "Lead",
+        "MasterLabel": "Lead",
+        "NamespacePrefix": null
+    },
+    "EDSCase": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Case"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Case",
+        "InternalSharingModel": "ReadWriteTransfer",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "500",
+        "Label": "Case",
+        "MasterLabel": "Case",
+        "NamespacePrefix": null
+    },
+    "EDSCampaign": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Campaign"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Campaign",
+        "InternalSharingModel": "FullAccess",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "701",
+        "Label": "Campaign",
+        "MasterLabel": "Campaign",
+        "NamespacePrefix": null
+    },
+    "EDSCampaignMember": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/CampaignMember"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "CampaignMember",
+        "InternalSharingModel": "ControlledByCampaign",
+        "ExternalSharingModel": "ControlledByCampaign",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": false,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": false,
+        "KeyPrefix": "00v",
+        "Label": "Campaign Member",
+        "MasterLabel": "Campaign Member",
+        "NamespacePrefix": null
+    },
+    "EDSAsset": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Asset"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Asset",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "02i",
+        "Label": "Asset",
+        "MasterLabel": "Asset",
+        "NamespacePrefix": null
+    },
+    "EDSContract": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Contract"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Contract",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "800",
+        "Label": "Contract",
+        "MasterLabel": "Contract",
+        "NamespacePrefix": null
+    },
+    "EDSContractContactRole": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/ContractContactRole"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "ContractContactRole",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "ReadWrite",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": false,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": false,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": false,
+        "KeyPrefix": "02a",
+        "Label": "Contract Contact Role",
+        "MasterLabel": "Contract Contact Role",
+        "NamespacePrefix": null
+    },
+    "EDSOrder": {
+        "attributes": {
+            "type": "EntityDefinition",
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Order"
+        },
+        "DetailUrl": "/{ID}",
+        "DeveloperName": "Order",
+        "InternalSharingModel": "ReadWrite",
+        "ExternalSharingModel": "Private",
+        "IsFieldHistoryTracked": false,
+        "IsFlsEnabled": true,
+        "IsIdEnabled": true,
+        "IsLayoutable": true,
+        "IsMruEnabled": true,
+        "IsQueryable": true,
+        "IsRetrieveable": true,
+        "IsSearchable": true,
+        "KeyPrefix": "801",
+        "Label": "Order",
+        "MasterLabel": "Order",
+        "NamespacePrefix": null
+    },
+    "ApexCodeCoverage": [],
+    "BusinessProcess": [],
+    "Certificates": [],
+    "CspTrustedSite": [],
+    "oauthToken": [
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDJOA4"
+            },
+            "UserId": "005Aq00000TrRmAIAV",
+            "AppName": "Salesforce CLI",
+            "LastUsedDate": "2025-07-21T10:53:18.000+0000",
+            "UseCount": 49
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDKOA4"
+            },
+            "UserId": "005Aq00000TrTj7IAF",
+            "AppName": "Salesforce CLI",
+            "LastUsedDate": "2025-07-21T17:28:34.000+0000",
+            "UseCount": 1
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDMOA4"
+            },
+            "UserId": "005Aq00000TwuXnIAJ",
+            "AppName": "Salesforce CLI",
+            "LastUsedDate": "2025-07-18T13:22:44.000+0000",
+            "UseCount": 5
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDLOA4"
+            },
+            "UserId": "005Aq00000TwyWFIAZ",
+            "AppName": "PostMan",
+            "LastUsedDate": "2025-07-02T17:20:23.000+0000",
+            "UseCount": 2
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDOOA4"
+            },
+            "UserId": "005au000002UkkEAAS",
+            "AppName": "Copado DevOps (N.A.)",
+            "LastUsedDate": "2025-06-27T19:47:47.000+0000",
+            "UseCount": 2
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDNOA4"
+            },
+            "UserId": "005au000002UkkEAAS",
+            "AppName": "Copado DevOps (N.A.)",
+            "LastUsedDate": "2025-07-16T15:07:46.000+0000",
+            "UseCount": 6
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQAq000000VWDPOA4"
+            },
+            "UserId": "005au000002nQHxAAM",
+            "AppName": "Salesforce CLI",
+            "LastUsedDate": "2025-07-07T21:09:56.000+0000",
+            "UseCount": 2
+        }
+    ],
+    "SetupAuditTrail": [
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001MzLPAKA3"
+            },
+            "Action": "useSandboxOrgDomainPrefOffOn",
+            "Section": null
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001MzV3PKAV"
+            },
+            "Action": "activatedMatchRule",
+            "Section": "Matching Rule"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001MzV3QKAV"
+            },
+            "Action": "activatedMatchRule",
+            "Section": "Matching Rule"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001MzV3RKAV"
+            },
+            "Action": "activatedMatchRule",
+            "Section": "Matching Rule"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0bGbKAJ"
+            },
+            "Action": "changedpassword",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0gvyKAB"
+            },
+            "Action": "createduser",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0iuZKAR"
+            },
+            "Action": "createduser",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0j4JKAR"
+            },
+            "Action": "changedUserEmailVerifiedStatusVerified",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0lUuKAJ"
+            },
+            "Action": "changedUserEmailVerifiedStatusVerified",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N0xiHKAR"
+            },
+            "Action": "changedpassword",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001N16QbKAJ"
+            },
+            "Action": "createduser",
+            "Section": "Manage Users"
+        },
+        {
+            "attributes": {
+                "type": "SetupAuditTrail",
+                "url": "/services/data/v64.0/sobjects/SetupAuditTrail/0YmAq00001NHzfoKAD"
+            },
+            "Action": "createduser",
+            "Section": "Manage Users"
+        }
+    ],
+    "inactiveUsers": [],
+    "unusedProfiles": [
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigJAAQ"
+            },
+            "Id": "00eau000001zigJAAQ",
+            "Name": "Standard User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigKAAQ"
+            },
+            "Id": "00eau000001zigKAAQ",
+            "Name": "Executive Sponsor"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigUAAQ"
+            },
+            "Id": "00eau000001zigUAAQ",
+            "Name": "Minimum Access - API Only Integrations"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigWAAQ"
+            },
+            "Id": "00eau000001zigWAAQ",
+            "Name": "Identity User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigXAAQ"
+            },
+            "Id": "00eau000001zigXAAQ",
+            "Name": "Minimum Access - Salesforce"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigYAAQ"
+            },
+            "Id": "00eau000001zigYAAQ",
+            "Name": "Read Only"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigZAAQ"
+            },
+            "Id": "00eau000001zigZAAQ",
+            "Name": "Solution Manager"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigaAAA"
+            },
+            "Id": "00eau000001zigaAAA",
+            "Name": "Marketing User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigbAAA"
+            },
+            "Id": "00eau000001zigbAAA",
+            "Name": "Contract Manager"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigcAAA"
+            },
+            "Id": "00eau000001zigcAAA",
+            "Name": "Chatter Moderator User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigdAAA"
+            },
+            "Id": "00eau000001zigdAAA",
+            "Name": "Chatter External User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigeAAA"
+            },
+            "Id": "00eau000001zigeAAA",
+            "Name": "CPQ Integration User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigfAAA"
+            },
+            "Id": "00eau000001zigfAAA",
+            "Name": "Salesforce API Only System Integrations"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001ziggAAA"
+            },
+            "Id": "00eau000001ziggAAA",
+            "Name": "Guest License User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zighAAA"
+            },
+            "Id": "00eau000001zighAAA",
+            "Name": "Analytics Cloud Security User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3GAAW"
+            },
+            "Id": "00eau000002WS3GAAW",
+            "Name": "Einstein Agent User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3HAAW"
+            },
+            "Id": "00eau000002WS3HAAW",
+            "Name": "External Apps Login User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000002eOIbAAM"
+            },
+            "Id": "00eau000002eOIbAAM",
+            "Name": "Anypoint Integration"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000003IpYcAAK"
+            },
+            "Id": "00eau000003IpYcAAK",
+            "Name": "Customer Community Plus User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000003OIwaAAG"
+            },
+            "Id": "00eau000003OIwaAAG",
+            "Name": "Customer Community Plus Login User"
+        }
+    ],
+    "usedProfiles": [
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigIAAQ"
+            },
+            "Id": "00eau000001zigIAAQ",
+            "Name": "System Administrator"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigLAAQ"
+            },
+            "Id": "00eau000001zigLAAQ",
+            "Name": "End User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigMAAQ"
+            },
+            "Id": "00eau000001zigMAAQ",
+            "Name": "Analytics Cloud Integration User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigSAAQ"
+            },
+            "Id": "00eau000001zigSAAQ",
+            "Name": "Chatter Free User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigVAAQ"
+            },
+            "Id": "00eau000001zigVAAQ",
+            "Name": "Sales Insights Integration User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3FAAW"
+            },
+            "Id": "00eau000002WS3FAAW",
+            "Name": "SalesforceIQ Integration User"
+        }
+    ],
+    "usedPermissionSets": [
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzQGAU"
+            },
+            "Id": "0PSau000000mXzQGAU",
+            "Name": "X00ex00000018ozX_128_09_43_34_5",
+            "ProfileId": "00eau000001zigZAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigZAAQ"
+                },
+                "Name": "Solution Manager"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzRGAU"
+            },
+            "Id": "0PSau000000mXzRGAU",
+            "Name": "X00e36000000P0lcAAC",
+            "ProfileId": "00eau000001zigeAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigeAAA"
+                },
+                "Name": "CPQ Integration User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzSGAU"
+            },
+            "Id": "0PSau000000mXzSGAU",
+            "Name": "X00ex00000018ozY_128_09_43_34_6",
+            "ProfileId": "00eau000001zigaAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigaAAA"
+                },
+                "Name": "Marketing User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzTGAU"
+            },
+            "Id": "0PSau000000mXzTGAU",
+            "Name": "X00e4x000000twXgAAI",
+            "ProfileId": "00eau000001zigWAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigWAAQ"
+                },
+                "Name": "Identity User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzUGAU"
+            },
+            "Id": "0PSau000000mXzUGAU",
+            "Name": "X00eHn000001mn7BIAQ",
+            "ProfileId": "00eau000001zigfAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigfAAA"
+                },
+                "Name": "Salesforce API Only System Integrations"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzVGAU"
+            },
+            "Id": "0PSau000000mXzVGAU",
+            "Name": "X00ex00000018ozT_128_09_43_34_1",
+            "ProfileId": "00eau000001zigIAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigIAAQ"
+                },
+                "Name": "System Administrator"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzWGAU"
+            },
+            "Id": "0PSau000000mXzWGAU",
+            "Name": "X00e3i000000Qpg4AAC",
+            "ProfileId": "00eau000001zigKAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigKAAQ"
+                },
+                "Name": "Executive Sponsor"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzXGAU"
+            },
+            "Id": "0PSau000000mXzXGAU",
+            "Name": "X00ex00000018ozW_128_09_43_34_4",
+            "ProfileId": "00eau000001zigYAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigYAAQ"
+                },
+                "Name": "Read Only"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzYGAU"
+            },
+            "Id": "0PSau000000mXzYGAU",
+            "Name": "X00ex00000018ozZ_128_09_43_34_7",
+            "ProfileId": "00eau000001zigbAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigbAAA"
+                },
+                "Name": "Contract Manager"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzZGAU"
+            },
+            "Id": "0PSau000000mXzZGAU",
+            "Name": "X00eHr0000019uaWIAQ",
+            "ProfileId": "00eau000001zigUAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigUAAQ"
+                },
+                "Name": "Minimum Access - API Only Integrations"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzaGAE"
+            },
+            "Id": "0PSau000000mXzaGAE",
+            "Name": "X00e3i000000Qrm9AAC",
+            "ProfileId": "00eau000001zigLAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigLAAQ"
+                },
+                "Name": "End User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzcGAE"
+            },
+            "Id": "0PSau000000mXzcGAE",
+            "Name": "X00ex00000018ozV_128_09_43_34_3",
+            "ProfileId": "00eau000001zigJAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigJAAQ"
+                },
+                "Name": "Standard User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzdGAE"
+            },
+            "Id": "0PSau000000mXzdGAE",
+            "Name": "X00e4x000000twXhAAI",
+            "ProfileId": "00eau000001zigXAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigXAAQ"
+                },
+                "Name": "Minimum Access - Salesforce"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzeGAE"
+            },
+            "Id": "0PSau000000mXzeGAE",
+            "Name": "X00e30000001VIG4AAO",
+            "ProfileId": "00eau000001zigcAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigcAAA"
+                },
+                "Name": "Chatter Moderator User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzfGAE"
+            },
+            "Id": "0PSau000000mXzfGAE",
+            "Name": "X00e30000001VIG3AAO",
+            "ProfileId": "00eau000001zigSAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigSAAQ"
+                },
+                "Name": "Chatter Free User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzgGAE"
+            },
+            "Id": "0PSau000000mXzgGAE",
+            "Name": "X00e30000001VIG5AAO",
+            "ProfileId": "00eau000001zigdAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigdAAA"
+                },
+                "Name": "Chatter External User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzhGAE"
+            },
+            "Id": "0PSau000000mXzhGAE",
+            "Name": "X00eHn000001mn7CIAQ",
+            "ProfileId": "00eau000001ziggAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001ziggAAA"
+                },
+                "Name": "Guest License User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXziGAE"
+            },
+            "Id": "0PSau000000mXziGAE",
+            "Name": "X00eHn000001xTZoIAM",
+            "ProfileId": "00eau000001zigMAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigMAAQ"
+                },
+                "Name": "Analytics Cloud Integration User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzjGAE"
+            },
+            "Id": "0PSau000000mXzjGAE",
+            "Name": "X00eHn000001xTZpIAM",
+            "ProfileId": "00eau000001zighAAA",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zighAAA"
+                },
+                "Name": "Analytics Cloud Security User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzkGAE"
+            },
+            "Id": "0PSau000000mXzkGAE",
+            "Name": "X00eHr0000019x3MIAQ",
+            "ProfileId": "00eau000001zigVAAQ",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigVAAQ"
+                },
+                "Name": "Sales Insights Integration User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCAxGAM"
+            },
+            "Id": "0PSau000000vCAxGAM",
+            "Name": "X00eau000002WS3FAAW",
+            "ProfileId": "00eau000002WS3FAAW",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3FAAW"
+                },
+                "Name": "SalesforceIQ Integration User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCAyGAM"
+            },
+            "Id": "0PSau000000vCAyGAM",
+            "Name": "X00eau000002WS3GAAW",
+            "ProfileId": "00eau000002WS3GAAW",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3GAAW"
+                },
+                "Name": "Einstein Agent User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCAzGAM"
+            },
+            "Id": "0PSau000000vCAzGAM",
+            "Name": "X00eau000002WS3HAAW",
+            "ProfileId": "00eau000002WS3HAAW",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000002WS3HAAW"
+                },
+                "Name": "External Apps Login User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXeKGAU"
+            },
+            "Id": "0PSau000000xXeKGAU",
+            "Name": "X00eau000002eOIbAAM",
+            "ProfileId": "00eau000002eOIbAAM",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000002eOIbAAM"
+                },
+                "Name": "Anypoint Integration"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r2vGAA"
+            },
+            "Id": "0PSau0000019r2vGAA",
+            "Name": "X00eau000003IpYcAAK",
+            "ProfileId": "00eau000003IpYcAAK",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000003IpYcAAK"
+                },
+                "Name": "Customer Community Plus User"
+            }
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001BS6rGAG"
+            },
+            "Id": "0PSau000001BS6rGAG",
+            "Name": "X00eau000003OIwaAAG",
+            "ProfileId": "00eau000003OIwaAAG",
+            "Profile": {
+                "attributes": {
+                    "type": "Profile",
+                    "url": "/services/data/v64.0/sobjects/Profile/00eau000003OIwaAAG"
+                },
+                "Name": "Customer Community Plus Login User"
+            }
+        }
+    ],
+    "unusedPermissionSets": [
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSAq0000034WMKOA2"
+            },
+            "Id": "0PSAq0000034WMKOA2",
+            "Name": "IndustriesConfiguratorPlatformApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzOGAU"
+            },
+            "Id": "0PSau000000mXzOGAU",
+            "Name": "sfdc_activityplatform",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzPGAU"
+            },
+            "Id": "0PSau000000mXzPGAU",
+            "Name": "sfdc_scrt2",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzpGAE"
+            },
+            "Id": "0PSau000000mXzpGAE",
+            "Name": "Sales_User",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0ZGAU"
+            },
+            "Id": "0PSau000000mY0ZGAU",
+            "Name": "ScaleCenterUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB0GAM"
+            },
+            "Id": "0PSau000000vCB0GAM",
+            "Name": "Enablement_Resources_Manager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB1GAM"
+            },
+            "Id": "0PSau000000vCB1GAM",
+            "Name": "Commerce_Shopper",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB2GAM"
+            },
+            "Id": "0PSau000000vCB2GAM",
+            "Name": "CopilotSalesforceUserPSG",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB3GAM"
+            },
+            "Id": "0PSau000000vCB3GAM",
+            "Name": "CopilotSalesforceAdminPSG",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB4GAM"
+            },
+            "Id": "0PSau000000vCB4GAM",
+            "Name": "Enablement_User",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB5GAM"
+            },
+            "Id": "0PSau000000vCB5GAM",
+            "Name": "Enablement_Admin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB6GAM"
+            },
+            "Id": "0PSau000000vCB6GAM",
+            "Name": "Partner_Enablement_User",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB7GAM"
+            },
+            "Id": "0PSau000000vCB7GAM",
+            "Name": "MarketingUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB8GAM"
+            },
+            "Id": "0PSau000000vCB8GAM",
+            "Name": "SalesUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCB9GAM"
+            },
+            "Id": "0PSau000000vCB9GAM",
+            "Name": "CommerceUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCBAGA2"
+            },
+            "Id": "0PSau000000vCBAGA2",
+            "Name": "ServiceUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCBBGA2"
+            },
+            "Id": "0PSau000000vCBBGA2",
+            "Name": "AgentforceServiceAgentUserPsg",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCBCGA2"
+            },
+            "Id": "0PSau000000vCBCGA2",
+            "Name": "GeneralUsers",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSfGAM"
+            },
+            "Id": "0PSau000000vCSfGAM",
+            "Name": "sfdc_a360",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCVtGAM"
+            },
+            "Id": "0PSau000000vCVtGAM",
+            "Name": "sfdc_a360_sfcrm_data_extract",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXeQGAU"
+            },
+            "Id": "0PSau000000xXeQGAU",
+            "Name": "Manage_ASC_Analytics",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbJTGA0"
+            },
+            "Id": "0PSau000001JbJTGA0",
+            "Name": "Comms_Cloud_Sales_Admin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4XGAQ"
+            },
+            "Id": "0PSau0000019r4XGAQ",
+            "Name": "ActionableEventOrchDesignerPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4YGAQ"
+            },
+            "Id": "0PSau0000019r4YGAQ",
+            "Name": "ActionableEventOrchRuntimePsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4ZGAQ"
+            },
+            "Id": "0PSau0000019r4ZGAQ",
+            "Name": "ActionableSegmentation",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR3GAM"
+            },
+            "Id": "0PSau000000vCR3GAM",
+            "Name": "ActivitiesWaveAdminHVS",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KS3MGAW"
+            },
+            "Id": "0PSau000001KS3MGAW",
+            "Name": "AdvancedConfiguratorDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4aGAA"
+            },
+            "Id": "0PSau0000019r4aGAA",
+            "Name": "AdvancedCsvDataImport",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR4GAM"
+            },
+            "Id": "0PSau000000vCR4GAM",
+            "Name": "AgentforceServiceAgentBase",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR5GAM"
+            },
+            "Id": "0PSau000000vCR5GAM",
+            "Name": "AgentforceServiceAgentBuilder",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001D4gLGAS"
+            },
+            "Id": "0PSau000001D4gLGAS",
+            "Name": "AgentforceServiceAgentSecureBase",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR6GAM"
+            },
+            "Id": "0PSau000000vCR6GAM",
+            "Name": "AgentforceServiceAgentUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4bGAA"
+            },
+            "Id": "0PSau0000019r4bGAA",
+            "Name": "AnalyticsQueryService",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR7GAM"
+            },
+            "Id": "0PSau000000vCR7GAM",
+            "Name": "AnalyticsQueryServiceForSalesPlanning",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR8GAM"
+            },
+            "Id": "0PSau000000vCR8GAM",
+            "Name": "AnalyticsStoreUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCR9GAM"
+            },
+            "Id": "0PSau000000vCR9GAM",
+            "Name": "AnalyticsViewOnlyUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY02GAE"
+            },
+            "Id": "0PSau000000mY02GAE",
+            "Name": "ApexGuruStandardPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRAGA2"
+            },
+            "Id": "0PSau000000vCRAGA2",
+            "Name": "AssessmentSurveysManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4cGAA"
+            },
+            "Id": "0PSau0000019r4cGAA",
+            "Name": "AssetConnectedServicesPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRBGA2"
+            },
+            "Id": "0PSau000000vCRBGA2",
+            "Name": "AuthenticatedPayer",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY09GAE"
+            },
+            "Id": "0PSau000000mY09GAE",
+            "Name": "AutomatedActionsUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4dGAA"
+            },
+            "Id": "0PSau0000019r4dGAA",
+            "Name": "BRECmtyRuntime",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4eGAA"
+            },
+            "Id": "0PSau0000019r4eGAA",
+            "Name": "BREDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4fGAA"
+            },
+            "Id": "0PSau0000019r4fGAA",
+            "Name": "BRERuntime",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4gGAA"
+            },
+            "Id": "0PSau0000019r4gGAA",
+            "Name": "BookServiceAppointmentPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzwGAE"
+            },
+            "Id": "0PSau000000mXzwGAE",
+            "Name": "C2CHeadlessCMSAccessPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4hGAA"
+            },
+            "Id": "0PSau0000019r4hGAA",
+            "Name": "CLMAdminUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4iGAA"
+            },
+            "Id": "0PSau0000019r4iGAA",
+            "Name": "CLMRuntimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRCGA2"
+            },
+            "Id": "0PSau000000vCRCGA2",
+            "Name": "CRMUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0AGAU"
+            },
+            "Id": "0PSau000000mY0AGAU",
+            "Name": "CallCoachingIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0BGAU"
+            },
+            "Id": "0PSau000000mY0BGAU",
+            "Name": "CallCoachingIntegrationUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRDGA2"
+            },
+            "Id": "0PSau000000vCRDGA2",
+            "Name": "CallCoachingUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCREGA2"
+            },
+            "Id": "0PSau000000vCREGA2",
+            "Name": "CallCoachingUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4jGAA"
+            },
+            "Id": "0PSau0000019r4jGAA",
+            "Name": "ClauseDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4kGAA"
+            },
+            "Id": "0PSau0000019r4kGAA",
+            "Name": "ClauseUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzvGAE"
+            },
+            "Id": "0PSau000000mXzvGAE",
+            "Name": "CodeBuilderUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRFGA2"
+            },
+            "Id": "0PSau000000vCRFGA2",
+            "Name": "CommerceAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXeLGAU"
+            },
+            "Id": "0PSau000000xXeLGAU",
+            "Name": "CommerceSession",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRGGA2"
+            },
+            "Id": "0PSau000000vCRGGA2",
+            "Name": "CommerceStarterApp",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRHGA2"
+            },
+            "Id": "0PSau000000vCRHGA2",
+            "Name": "CommerceUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4lGAA"
+            },
+            "Id": "0PSau0000019r4lGAA",
+            "Name": "CommsB2CBusinessProcesses",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4mGAA"
+            },
+            "Id": "0PSau0000019r4mGAA",
+            "Name": "CommsB2CServiceConsole",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKaGAO"
+            },
+            "Id": "0PSau000001KQKaGAO",
+            "Name": "ConnectivityServiceCASCPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4nGAA"
+            },
+            "Id": "0PSau0000019r4nGAA",
+            "Name": "ContextServiceAdminPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4oGAA"
+            },
+            "Id": "0PSau0000019r4oGAA",
+            "Name": "ContextServiceRuntimePsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRIGA2"
+            },
+            "Id": "0PSau000000vCRIGA2",
+            "Name": "ContractsAIClauseDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRJGA2"
+            },
+            "Id": "0PSau000000vCRJGA2",
+            "Name": "ContractsAIRuntimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRKGA2"
+            },
+            "Id": "0PSau000000vCRKGA2",
+            "Name": "CopilotSalesforceAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRLGA2"
+            },
+            "Id": "0PSau000000vCRLGA2",
+            "Name": "CopilotSalesforceUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4pGAA"
+            },
+            "Id": "0PSau0000019r4pGAA",
+            "Name": "CorePricingAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4qGAA"
+            },
+            "Id": "0PSau0000019r4qGAA",
+            "Name": "CorePricingDesignTimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4rGAA"
+            },
+            "Id": "0PSau0000019r4rGAA",
+            "Name": "CorePricingManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4sGAA"
+            },
+            "Id": "0PSau0000019r4sGAA",
+            "Name": "CorePricingRunTimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzNGAS"
+            },
+            "Id": "0PSau000001JbzNGAS",
+            "Name": "CreateOrderFromQuoteCustomerCommunityPlusLoginUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzOGAS"
+            },
+            "Id": "0PSau000001JbzOGAS",
+            "Name": "CreateOrderFromQuoteCustomerCommunityPlusUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzPGAS"
+            },
+            "Id": "0PSau000001JbzPGAS",
+            "Name": "CreateOrderFromQuoteExternalAppsLoginUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4tGAA"
+            },
+            "Id": "0PSau0000019r4tGAA",
+            "Name": "CriteriaBasedSearchAndFilterPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4uGAA"
+            },
+            "Id": "0PSau0000019r4uGAA",
+            "Name": "CriteriaBasedSearchFilterExpCloudPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXztGAE"
+            },
+            "Id": "0PSau000000mXztGAE",
+            "Name": "D360HomeOrgPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000015HIzGAM"
+            },
+            "Id": "0PSau0000015HIzGAM",
+            "Name": "DCToDCSharingSetupC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4vGAA"
+            },
+            "Id": "0PSau0000019r4vGAA",
+            "Name": "DFODesignerUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4wGAA"
+            },
+            "Id": "0PSau0000019r4wGAA",
+            "Name": "DFOManagerOperatorUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4xGAA"
+            },
+            "Id": "0PSau0000019r4xGAA",
+            "Name": "DROOrderSubmitInitiateUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4yGAA"
+            },
+            "Id": "0PSau0000019r4yGAA",
+            "Name": "DataCloudMtrcsVisualizationPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r4zGAA"
+            },
+            "Id": "0PSau0000019r4zGAA",
+            "Name": "DataProcessingEngineUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r50GAA"
+            },
+            "Id": "0PSau0000019r50GAA",
+            "Name": "DecimalQuantityDesigntime",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r51GAA"
+            },
+            "Id": "0PSau0000019r51GAA",
+            "Name": "DecimalQuantityRuntime",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY06GAE"
+            },
+            "Id": "0PSau000000mY06GAE",
+            "Name": "DeliveryEstimationServicePermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r52GAA"
+            },
+            "Id": "0PSau0000019r52GAA",
+            "Name": "DfoAdminUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r53GAA"
+            },
+            "Id": "0PSau0000019r53GAA",
+            "Name": "DocGenDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r54GAA"
+            },
+            "Id": "0PSau0000019r54GAA",
+            "Name": "DocGenUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r55GAA"
+            },
+            "Id": "0PSau0000019r55GAA",
+            "Name": "DocumentBuilderUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRMGA2"
+            },
+            "Id": "0PSau000000vCRMGA2",
+            "Name": "E360MessagingC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKbGAO"
+            },
+            "Id": "0PSau000001KQKbGAO",
+            "Name": "E360UEC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0CGAU"
+            },
+            "Id": "0PSau000000mY0CGAU",
+            "Name": "ERIBasic",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0DGAU"
+            },
+            "Id": "0PSau000000mY0DGAU",
+            "Name": "EinsteinActivityCaptureIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRNGA2"
+            },
+            "Id": "0PSau000000vCRNGA2",
+            "Name": "EinsteinAgent",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCROGA2"
+            },
+            "Id": "0PSau000000vCROGA2",
+            "Name": "EinsteinAgentCWU",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRPGA2"
+            },
+            "Id": "0PSau000000vCRPGA2",
+            "Name": "EinsteinCopilotReviewMyDay",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRQGA2"
+            },
+            "Id": "0PSau000000vCRQGA2",
+            "Name": "EinsteinGPTCallExplorerPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRRGA2"
+            },
+            "Id": "0PSau000000vCRRGA2",
+            "Name": "EinsteinGPTCreateClosePlan",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRSGA2"
+            },
+            "Id": "0PSau000000vCRSGA2",
+            "Name": "EinsteinGPTGetProductPricing",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRTGA2"
+            },
+            "Id": "0PSau000000vCRTGA2",
+            "Name": "EinsteinGPTMeetingFollowupCopilot",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRUGA2"
+            },
+            "Id": "0PSau000000vCRUGA2",
+            "Name": "EinsteinGPTPromptTemplateManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRVGA2"
+            },
+            "Id": "0PSau000000vCRVGA2",
+            "Name": "EinsteinGPTPromptTemplateUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRWGA2"
+            },
+            "Id": "0PSau000000vCRWGA2",
+            "Name": "EinsteinGPTSalesCallSummaries",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0EGAU"
+            },
+            "Id": "0PSau000000mY0EGAU",
+            "Name": "EinsteinGPTSalesEmails",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRXGA2"
+            },
+            "Id": "0PSau000000vCRXGA2",
+            "Name": "EinsteinGPTSalesMiningPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0FGAU"
+            },
+            "Id": "0PSau000000mY0FGAU",
+            "Name": "EinsteinGPTSalesSummaries",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXJMGA2"
+            },
+            "Id": "0PSau000000xXJMGA2",
+            "Name": "EinsteinOpportunityStageSuggestionPSL",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0GGAU"
+            },
+            "Id": "0PSau000000mY0GGAU",
+            "Name": "EinsteinSalesBots",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRYGA2"
+            },
+            "Id": "0PSau000000vCRYGA2",
+            "Name": "EinsteinSendMeetingRequestCopilot",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRZGA2"
+            },
+            "Id": "0PSau000000vCRZGA2",
+            "Name": "EinsteinServiceInnovations",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRaGAM"
+            },
+            "Id": "0PSau000000vCRaGAM",
+            "Name": "EmployeeAccess",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRbGAM"
+            },
+            "Id": "0PSau000000vCRbGAM",
+            "Name": "EmployeeManagement",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRcGAM"
+            },
+            "Id": "0PSau000000vCRcGAM",
+            "Name": "EnablementAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXeMGAU"
+            },
+            "Id": "0PSau000000xXeMGAU",
+            "Name": "EnablementAnalytics",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRdGAM"
+            },
+            "Id": "0PSau000000vCRdGAM",
+            "Name": "EnablementUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCReGAM"
+            },
+            "Id": "0PSau000000vCReGAM",
+            "Name": "FSCInsuranceRecordSummary",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXeNGAU"
+            },
+            "Id": "0PSau000000xXeNGAU",
+            "Name": "GPTRecordResearch",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRfGAM"
+            },
+            "Id": "0PSau000000vCRfGAM",
+            "Name": "GenieAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRgGAM"
+            },
+            "Id": "0PSau000000vCRgGAM",
+            "Name": "GenieMarketingAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCUHGA2"
+            },
+            "Id": "0PSau000000vCUHGA2",
+            "Name": "GenieMarketingDataAwareSpecialistEnhancedSecurity",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCUIGA2"
+            },
+            "Id": "0PSau000000vCUIGA2",
+            "Name": "GenieMarketingManagerEnhancedSecurity",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCUJGA2"
+            },
+            "Id": "0PSau000000vCUJGA2",
+            "Name": "GenieMarketingSpecialistEnhancedSecurity",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCUKGA2"
+            },
+            "Id": "0PSau000000vCUKGA2",
+            "Name": "GenieUserEnhancedSecurity",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzuGAE"
+            },
+            "Id": "0PSau000000mXzuGAE",
+            "Name": "HighScaleFlowC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRlGAM"
+            },
+            "Id": "0PSau000000vCRlGAM",
+            "Name": "HighVelocitySalesCadenceCreator",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0HGAU"
+            },
+            "Id": "0PSau000000mY0HGAU",
+            "Name": "HighVelocitySalesCadenceCreatorIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRmGAM"
+            },
+            "Id": "0PSau000000vCRmGAM",
+            "Name": "HighVelocitySalesQuickCadenceCreator",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0IGAU"
+            },
+            "Id": "0PSau000000mY0IGAU",
+            "Name": "HighVelocitySalesQuickCadenceCreatorIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRnGAM"
+            },
+            "Id": "0PSau000000vCRnGAM",
+            "Name": "HighVelocitySalesUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0JGAU"
+            },
+            "Id": "0PSau000000mY0JGAU",
+            "Name": "HighVelocitySalesUserIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRoGAM"
+            },
+            "Id": "0PSau000000vCRoGAM",
+            "Name": "InAppGuidanceManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0KGAU"
+            },
+            "Id": "0PSau000000mY0KGAU",
+            "Name": "InboxIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r56GAA"
+            },
+            "Id": "0PSau0000019r56GAA",
+            "Name": "IndustriesARCPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKcGAO"
+            },
+            "Id": "0PSau000001KQKcGAO",
+            "Name": "IndustriesAssessmentPermissionSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JsFRGA0"
+            },
+            "Id": "0PSau000001JsFRGA0",
+            "Name": "IndustriesConfiguratorPlatformApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r57GAA"
+            },
+            "Id": "0PSau0000019r57GAA",
+            "Name": "IndustriesServiceExcellence",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r58GAA"
+            },
+            "Id": "0PSau0000019r58GAA",
+            "Name": "InteractionCalculationAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r59GAA"
+            },
+            "Id": "0PSau0000019r59GAA",
+            "Name": "InventoryCountManagerPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5AGAQ"
+            },
+            "Id": "0PSau0000019r5AGAQ",
+            "Name": "InventoryCountUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5BGAQ"
+            },
+            "Id": "0PSau0000019r5BGAQ",
+            "Name": "InventoryReplenishmentPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5CGAQ"
+            },
+            "Id": "0PSau0000019r5CGAQ",
+            "Name": "InventorySearchAndTransferPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5DGAQ"
+            },
+            "Id": "0PSau0000019r5DGAQ",
+            "Name": "InventorySearchForExperienceCloudPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRpGAM"
+            },
+            "Id": "0PSau000000vCRpGAM",
+            "Name": "MacrosManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKdGAO"
+            },
+            "Id": "0PSau000001KQKdGAO",
+            "Name": "MarketingCloudPublishingC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0SGAU"
+            },
+            "Id": "0PSau000000mY0SGAU",
+            "Name": "MarketingCloudReportingC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0LGAU"
+            },
+            "Id": "0PSau000000mY0LGAU",
+            "Name": "MessagingForInAppAndWebUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRqGAM"
+            },
+            "Id": "0PSau000000vCRqGAM",
+            "Name": "MessagingSessionAgent",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRrGAM"
+            },
+            "Id": "0PSau000000vCRrGAM",
+            "Name": "MetadataStudioUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5EGAQ"
+            },
+            "Id": "0PSau0000019r5EGAQ",
+            "Name": "Microsoft365WordDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5FGAQ"
+            },
+            "Id": "0PSau0000019r5FGAQ",
+            "Name": "Microsoft365WordUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0TGAU"
+            },
+            "Id": "0PSau000000mY0TGAU",
+            "Name": "MuleSoftPublishInvocableActionsC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRsGAM"
+            },
+            "Id": "0PSau000000vCRsGAM",
+            "Name": "NLPServicePsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRtGAM"
+            },
+            "Id": "0PSau000000vCRtGAM",
+            "Name": "NLPServicePslReadOnly",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5GGAQ"
+            },
+            "Id": "0PSau0000019r5GGAQ",
+            "Name": "ObligationAssignee",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5HGAQ"
+            },
+            "Id": "0PSau0000019r5HGAQ",
+            "Name": "ObligationManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5IGAQ"
+            },
+            "Id": "0PSau0000019r5IGAQ",
+            "Name": "ObligationUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5JGAQ"
+            },
+            "Id": "0PSau0000019r5JGAQ",
+            "Name": "OmniStudioAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5KGAQ"
+            },
+            "Id": "0PSau0000019r5KGAQ",
+            "Name": "OmniStudioExecution",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKeGAO"
+            },
+            "Id": "0PSau000001KQKeGAO",
+            "Name": "OmnistudioExperienceCloudUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0WGAU"
+            },
+            "Id": "0PSau000000mY0WGAU",
+            "Name": "OrchestrationProcessManagerPermissionSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5LGAQ"
+            },
+            "Id": "0PSau0000019r5LGAQ",
+            "Name": "OrderSubmitUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0XGAU"
+            },
+            "Id": "0PSau000000mY0XGAU",
+            "Name": "PartnerConnectPartnerAdminSetup",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRuGAM"
+            },
+            "Id": "0PSau000000vCRuGAM",
+            "Name": "PaymentsAdministrator",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0MGAU"
+            },
+            "Id": "0PSau000000mY0MGAU",
+            "Name": "PipelineInspectionIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzqGAE"
+            },
+            "Id": "0PSau000000mXzqGAE",
+            "Name": "PipelineInspectionUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKfGAO"
+            },
+            "Id": "0PSau000001KQKfGAO",
+            "Name": "PlaceSupplementalOrders",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKgGAO"
+            },
+            "Id": "0PSau000001KQKgGAO",
+            "Name": "PrismBackofficeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRvGAM"
+            },
+            "Id": "0PSau000000vCRvGAM",
+            "Name": "PrismPlaygroundUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5MGAQ"
+            },
+            "Id": "0PSau0000019r5MGAQ",
+            "Name": "ProductCatalogManagementAdministrator",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKhGAO"
+            },
+            "Id": "0PSau000001KQKhGAO",
+            "Name": "ProductCatalogManagementC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5NGAQ"
+            },
+            "Id": "0PSau0000019r5NGAQ",
+            "Name": "ProductCatalogManagementViewer",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JsFSGA0"
+            },
+            "Id": "0PSau000001JsFSGA0",
+            "Name": "ProductConfigurationRulesDesigner",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5OGAQ"
+            },
+            "Id": "0PSau0000019r5OGAQ",
+            "Name": "ProductDiscoveryAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5PGAQ"
+            },
+            "Id": "0PSau0000019r5PGAQ",
+            "Name": "ProductDiscoveryUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5QGAQ"
+            },
+            "Id": "0PSau0000019r5QGAQ",
+            "Name": "ProductServiceCampaignPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKiGAO"
+            },
+            "Id": "0PSau000001KQKiGAO",
+            "Name": "PromptTemplatePermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001KQKjGAO"
+            },
+            "Id": "0PSau000001KQKjGAO",
+            "Name": "PulseRuntimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzQGAS"
+            },
+            "Id": "0PSau000001JbzQGAS",
+            "Name": "QuotePricesTaxesCustomerCommunityPlusLoginUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzRGAS"
+            },
+            "Id": "0PSau000001JbzRGAS",
+            "Name": "QuotePricesTaxesCustomerCommunityPlusUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzSGAS"
+            },
+            "Id": "0PSau000001JbzSGAS",
+            "Name": "QuotePricesTaxesExternalAppsLoginUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000xXePGAU"
+            },
+            "Id": "0PSau000000xXePGAU",
+            "Name": "RPAC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5RGAQ"
+            },
+            "Id": "0PSau0000019r5RGAQ",
+            "Name": "RatingAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5SGAQ"
+            },
+            "Id": "0PSau0000019r5SGAQ",
+            "Name": "RatingDesignTimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5TGAQ"
+            },
+            "Id": "0PSau0000019r5TGAQ",
+            "Name": "RatingManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5UGAQ"
+            },
+            "Id": "0PSau0000019r5UGAQ",
+            "Name": "RatingRunTimeUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzTGAS"
+            },
+            "Id": "0PSau000001JbzTGAS",
+            "Name": "RevLifecycleManagementCalculatePricesApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzUGAS"
+            },
+            "Id": "0PSau000001JbzUGAS",
+            "Name": "RevLifecycleManagementCalculateTaxesApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzVGAS"
+            },
+            "Id": "0PSau000001JbzVGAS",
+            "Name": "RevLifecycleManagementCoreCPQAssetization",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzWGAS"
+            },
+            "Id": "0PSau000001JbzWGAS",
+            "Name": "RevLifecycleManagementCreateContractApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzXGAS"
+            },
+            "Id": "0PSau000001JbzXGAS",
+            "Name": "RevLifecycleManagementCreateOrderFromQuote",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzYGAS"
+            },
+            "Id": "0PSau000001JbzYGAS",
+            "Name": "RevLifecycleManagementInitiateAmendmentApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzZGAS"
+            },
+            "Id": "0PSau000001JbzZGAS",
+            "Name": "RevLifecycleManagementInitiateCancellationApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzaGAC"
+            },
+            "Id": "0PSau000001JbzaGAC",
+            "Name": "RevLifecycleManagementInitiateRenewalApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzbGAC"
+            },
+            "Id": "0PSau000001JbzbGAC",
+            "Name": "RevLifecycleManagementPlaceOrderApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzcGAC"
+            },
+            "Id": "0PSau000001JbzcGAC",
+            "Name": "RevLifecycleManagementProductAndPriceConfigurationApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzdGAC"
+            },
+            "Id": "0PSau000001JbzdGAC",
+            "Name": "RevLifecycleManagementProductImportApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzeGAC"
+            },
+            "Id": "0PSau000001JbzeGAC",
+            "Name": "RevLifecycleManagementQuotePricesTaxes",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000001JbzfGAC"
+            },
+            "Id": "0PSau000001JbzfGAC",
+            "Name": "RevLifecycleManagementTaxConfiguration",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5VGAQ"
+            },
+            "Id": "0PSau0000019r5VGAQ",
+            "Name": "RevLifecycleManagementUsageDesignUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRwGAM"
+            },
+            "Id": "0PSau000000vCRwGAM",
+            "Name": "RevenueIntelligenceAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRxGAM"
+            },
+            "Id": "0PSau000000vCRxGAM",
+            "Name": "RevenueIntelligenceUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5WGAQ"
+            },
+            "Id": "0PSau0000019r5WGAQ",
+            "Name": "RevenueLifecycleManagementAccountingAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5XGAQ"
+            },
+            "Id": "0PSau0000019r5XGAQ",
+            "Name": "RevenueLifecycleManagementBillingAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5YGAQ"
+            },
+            "Id": "0PSau0000019r5YGAQ",
+            "Name": "RevenueLifecycleManagementBillingCreateInvoiceFromBillingScheduleApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5ZGAQ"
+            },
+            "Id": "0PSau0000019r5ZGAQ",
+            "Name": "RevenueLifecycleManagementBillingCreditMemoOperations",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5aGAA"
+            },
+            "Id": "0PSau0000019r5aGAA",
+            "Name": "RevenueLifecycleManagementBillingCustomerService",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5bGAA"
+            },
+            "Id": "0PSau0000019r5bGAA",
+            "Name": "RevenueLifecycleManagementBillingInvoiceErrorRecoveryApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5cGAA"
+            },
+            "Id": "0PSau0000019r5cGAA",
+            "Name": "RevenueLifecycleManagementBillingOperations",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5dGAA"
+            },
+            "Id": "0PSau0000019r5dGAA",
+            "Name": "RevenueLifecycleManagementBillingTaxAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5eGAA"
+            },
+            "Id": "0PSau0000019r5eGAA",
+            "Name": "RevenueLifecycleManagementBillingVoidPostedInvoiceApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5fGAA"
+            },
+            "Id": "0PSau0000019r5fGAA",
+            "Name": "RevenueLifecycleManagementCreateBillingScheduleFromBillingTransactionApi",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRyGAM"
+            },
+            "Id": "0PSau000000vCRyGAM",
+            "Name": "SalesActionFindPastCollaborators",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000010sflGAA"
+            },
+            "Id": "0PSau0000010sflGAA",
+            "Name": "SalesActionPlans",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCRzGAM"
+            },
+            "Id": "0PSau000000vCRzGAM",
+            "Name": "SalesActionReviewBuyingCommittee",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS0GAM"
+            },
+            "Id": "0PSau000000vCS0GAM",
+            "Name": "SalesCloudEinsteinAll",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0NGAU"
+            },
+            "Id": "0PSau000000mY0NGAU",
+            "Name": "SalesCloudEinsteinIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0YGAU"
+            },
+            "Id": "0PSau000000mY0YGAU",
+            "Name": "SalesCloudMobileUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0OGAU"
+            },
+            "Id": "0PSau000000mY0OGAU",
+            "Name": "SalesCloudUnlimitedAnalyticsAdminIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0PGAU"
+            },
+            "Id": "0PSau000000mY0PGAU",
+            "Name": "SalesCloudUnlimitedIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzxGAE"
+            },
+            "Id": "0PSau000000mXzxGAE",
+            "Name": "SalesConsoleUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzrGAE"
+            },
+            "Id": "0PSau000000mXzrGAE",
+            "Name": "SalesEngagementBasicUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0QGAU"
+            },
+            "Id": "0PSau000000mY0QGAU",
+            "Name": "SalesMeetingsIncluded",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzyGAE"
+            },
+            "Id": "0PSau000000mXzyGAE",
+            "Name": "SalesUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000010sfmGAA"
+            },
+            "Id": "0PSau0000010sfmGAA",
+            "Name": "SalesforceForecastingUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0RGAU"
+            },
+            "Id": "0PSau000000mY0RGAU",
+            "Name": "SalesforceMeetings",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY08GAE"
+            },
+            "Id": "0PSau000000mY08GAE",
+            "Name": "ScaleCenterStandardPS",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS1GAM"
+            },
+            "Id": "0PSau000000vCS1GAM",
+            "Name": "ScaleTestingServiceAdvancedUserPS",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS2GAM"
+            },
+            "Id": "0PSau000000vCS2GAM",
+            "Name": "ScaleTestingServiceStandardUserPS",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS3GAM"
+            },
+            "Id": "0PSau000000vCS3GAM",
+            "Name": "ScoringFrameworkAdmin",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS4GAM"
+            },
+            "Id": "0PSau000000vCS4GAM",
+            "Name": "ScoringFrameworkUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY01GAE"
+            },
+            "Id": "0PSau000000mY01GAE",
+            "Name": "SeasIndexingPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS5GAM"
+            },
+            "Id": "0PSau000000vCS5GAM",
+            "Name": "SegmentIntelligenceUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5gGAA"
+            },
+            "Id": "0PSau0000019r5gGAA",
+            "Name": "ServerSideDocGenC2CPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS6GAM"
+            },
+            "Id": "0PSau000000vCS6GAM",
+            "Name": "ServiceCatalogAgent",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS7GAM"
+            },
+            "Id": "0PSau000000vCS7GAM",
+            "Name": "ServiceCatalogBuilder",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS8GAM"
+            },
+            "Id": "0PSau000000vCS8GAM",
+            "Name": "ServiceCatalogUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCS9GAM"
+            },
+            "Id": "0PSau000000vCS9GAM",
+            "Name": "ServiceECIUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSAGA2"
+            },
+            "Id": "0PSau000000vCSAGA2",
+            "Name": "ServiceLightningKnowledgeManager",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5hGAA"
+            },
+            "Id": "0PSau0000019r5hGAA",
+            "Name": "ServicePartReturnMgmt",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5iGAA"
+            },
+            "Id": "0PSau0000019r5iGAA",
+            "Name": "ServiceUserPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5jGAA"
+            },
+            "Id": "0PSau0000019r5jGAA",
+            "Name": "SimpleCsvDataImport",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSBGA2"
+            },
+            "Id": "0PSau000000vCSBGA2",
+            "Name": "SlackServiceUser",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mXzzGAE"
+            },
+            "Id": "0PSau000000mXzzGAE",
+            "Name": "StandardEinsteinActivityCapturePsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSCGA2"
+            },
+            "Id": "0PSau000000vCSCGA2",
+            "Name": "StarterMarketingApp",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSDGA2"
+            },
+            "Id": "0PSau000000vCSDGA2",
+            "Name": "StarterSalesApp",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSEGA2"
+            },
+            "Id": "0PSau000000vCSEGA2",
+            "Name": "StarterServiceApp",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSFGA2"
+            },
+            "Id": "0PSau000000vCSFGA2",
+            "Name": "TransactionDisputeManagementAI",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY03GAE"
+            },
+            "Id": "0PSau000000mY03GAE",
+            "Name": "TrustCardManagerPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSGGA2"
+            },
+            "Id": "0PSau000000vCSGGA2",
+            "Name": "UnifiedMarketingStarterUserPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSHGA2"
+            },
+            "Id": "0PSau000000vCSHGA2",
+            "Name": "UnifiedMarketingUserPermSet",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000vCSIGA2"
+            },
+            "Id": "0PSau000000vCSIGA2",
+            "Name": "Walkthroughs",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau0000019r5kGAA"
+            },
+            "Id": "0PSau0000019r5kGAA",
+            "Name": "WorkOrderEstimationPsl",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSau000000mY0UGAU"
+            },
+            "Id": "0PSau000000mY0UGAU",
+            "Name": "YukonNudgeHeadlessPublishPermSet",
+            "ProfileId": null,
+            "Profile": null
+        }
+    ],
+    "unusedRoles": [],
+    "usedRoles": [],
+    "sysAdminUsers": [
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000001IsivAAC"
+            },
+            "Id": "005au000001IsivAAC",
+            "Name": "Sudhira Talluri"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TrIHUIA3"
+            },
+            "Id": "005Aq00000TrIHUIA3",
+            "Name": "Ferdinand Bondt"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TrRmAIAV"
+            },
+            "Id": "005Aq00000TrRmAIAV",
+            "Name": "Mohanasundaram Chinnappan"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TrTj7IAF"
+            },
+            "Id": "005Aq00000TrTj7IAF",
+            "Name": "Orran Mandt"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TufvWIAR"
+            },
+            "Id": "005Aq00000TufvWIAR",
+            "Name": "Veni Di Gonzales"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TvoVdIAJ"
+            },
+            "Id": "005Aq00000TvoVdIAJ",
+            "Name": "Noopur Dwivedi"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TwuXnIAJ"
+            },
+            "Id": "005Aq00000TwuXnIAJ",
+            "Name": "Faouzi Lakhlifi"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TwyWFIAZ"
+            },
+            "Id": "005Aq00000TwyWFIAZ",
+            "Name": "Kunal Jaiswal"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TwzLvIAJ"
+            },
+            "Id": "005Aq00000TwzLvIAJ",
+            "Name": "Georgii Saveliev"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000Tx3cLIAR"
+            },
+            "Id": "005Aq00000Tx3cLIAR",
+            "Name": "Prashant Tiwari"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000Tx4tJIAR"
+            },
+            "Id": "005Aq00000Tx4tJIAR",
+            "Name": "Tina Jordan"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000TzZJWIA3"
+            },
+            "Id": "005Aq00000TzZJWIA3",
+            "Name": "Ronald Mendoza"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000U0v9xIAB"
+            },
+            "Id": "005Aq00000U0v9xIAB",
+            "Name": "Narayan Hombal"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005Aq00000UDQWUIA5"
+            },
+            "Id": "005Aq00000UDQWUIA5",
+            "Name": "Nishit Babaria"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au0000021ZIkAAM"
+            },
+            "Id": "005au0000021ZIkAAM",
+            "Name": "Ishan Babbar"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au0000028ozPAAQ"
+            },
+            "Id": "005au0000028ozPAAQ",
+            "Name": "Deep Nandi"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au0000028qGPAAY"
+            },
+            "Id": "005au0000028qGPAAY",
+            "Name": "Greg Poirier"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au0000028qI1AAI"
+            },
+            "Id": "005au0000028qI1AAI",
+            "Name": "Ousmane Coulibaly"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000002AxSHAA0"
+            },
+            "Id": "005au000002AxSHAA0",
+            "Name": "Harish Kumar"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000002H4fZAAS"
+            },
+            "Id": "005au000002H4fZAAS",
+            "Name": "James Driscoll"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000002PmptAAC"
+            },
+            "Id": "005au000002PmptAAC",
+            "Name": "Sakina Rahman"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000002UkkEAAS"
+            },
+            "Id": "005au000002UkkEAAS",
+            "Name": "Copado Integration User"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005au000002nQHxAAM"
+            },
+            "Id": "005au000002nQHxAAM",
+            "Name": "Manju Mittapalli"
+        }
+    ],
+    "userLicense": [
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LYAAY"
+            },
+            "Id": "100au000004z1LYAAY",
+            "Name": "Analytics Cloud Integration User",
+            "LicenseDefinitionKey": "INSIGHTS_INTEGRATION_USER",
+            "TotalLicenses": 2,
+            "Status": "Active",
+            "UsedLicenses": 1,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LaAAI"
+            },
+            "Id": "100au000004z1LaAAI",
+            "Name": "Salesforce",
+            "LicenseDefinitionKey": "SFDC",
+            "TotalLicenses": 274,
+            "Status": "Active",
+            "UsedLicenses": 22,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LbAAI"
+            },
+            "Id": "100au000004z1LbAAI",
+            "Name": "Salesforce Integration",
+            "LicenseDefinitionKey": "SALESFORCE_INTEGRATION_USER",
+            "TotalLicenses": 10,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LcAAI"
+            },
+            "Id": "100au000004z1LcAAI",
+            "Name": "Sales Insights Integration User",
+            "LicenseDefinitionKey": "PID_ImplisitIntegration",
+            "TotalLicenses": 1,
+            "Status": "Active",
+            "UsedLicenses": 1,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LfAAI"
+            },
+            "Id": "100au000004z1LfAAI",
+            "Name": "Cloud Integration User",
+            "LicenseDefinitionKey": "CLOUD_INTEGRATION_USER",
+            "TotalLicenses": 1,
+            "Status": "Active",
+            "UsedLicenses": 1,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LgAAI"
+            },
+            "Id": "100au000004z1LgAAI",
+            "Name": "Chatter Free",
+            "LicenseDefinitionKey": "CSN_User",
+            "TotalLicenses": 5000,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LiAAI"
+            },
+            "Id": "100au000004z1LiAAI",
+            "Name": "Identity",
+            "LicenseDefinitionKey": "PID_Identity_User",
+            "TotalLicenses": 100,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LjAAI"
+            },
+            "Id": "100au000004z1LjAAI",
+            "Name": "Chatter External",
+            "LicenseDefinitionKey": "CSN_External_User",
+            "TotalLicenses": 500,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LkAAI"
+            },
+            "Id": "100au000004z1LkAAI",
+            "Name": "CPQ Integration User",
+            "LicenseDefinitionKey": "PID_CpqIntegration",
+            "TotalLicenses": 0,
+            "Status": "Disabled",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000004z1LlAAI"
+            },
+            "Id": "100au000004z1LlAAI",
+            "Name": "Guest User License",
+            "LicenseDefinitionKey": "PID_Guest_User",
+            "TotalLicenses": 25,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000005w7JBAAY"
+            },
+            "Id": "100au000005w7JBAAY",
+            "Name": "SalesforceIQ Integration User",
+            "LicenseDefinitionKey": "PID_SalesforceIQIntegration",
+            "TotalLicenses": 1,
+            "Status": "Active",
+            "UsedLicenses": 1,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000005w7JCAAY"
+            },
+            "Id": "100au000005w7JCAAY",
+            "Name": "Einstein Agent",
+            "LicenseDefinitionKey": "PID_DigitalAgent",
+            "TotalLicenses": 601,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000005w7JDAAY"
+            },
+            "Id": "100au000005w7JDAAY",
+            "Name": "External Apps Login",
+            "LicenseDefinitionKey": "PID_External_Apps_Login",
+            "TotalLicenses": 100020,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000007PgEgAAK"
+            },
+            "Id": "100au000007PgEgAAK",
+            "Name": "Customer Community Plus",
+            "LicenseDefinitionKey": "PID_Customer_Community_Plus",
+            "TotalLicenses": 51,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        },
+        {
+            "attributes": {
+                "type": "UserLicense",
+                "url": "/services/data/v64.0/sobjects/UserLicense/100au000007XtjKAAS"
+            },
+            "Id": "100au000007XtjKAAS",
+            "Name": "Customer Community Plus Login",
+            "LicenseDefinitionKey": "PID_Customer_Community_Plus_Login",
+            "TotalLicenses": 31260,
+            "Status": "Active",
+            "UsedLicenses": 0,
+            "UsedLicensesLastUpdated": "2025-07-21T17:28:57.000+0000"
+        }
+    ],
+    "EinsteinDataDiscovery": {
+        "Installed": true
+    },
+    "PACount": {
+        "flow": 3
+    }
+}
