@@ -44,13 +44,13 @@
                                </tr>   <tr><td port="GroupMember" align="left">GroupMember</td>
                                    <td>7</td>
                                </tr>   <tr><td port="ObjectPermissions" align="left">ObjectPermissions</td>
-                                   <td>12021</td>
+                                   <td>12044</td>
                                </tr>   <tr><td port="PackageLicense" align="left">PackageLicense</td>
                                    <td>5</td>
                                </tr>   <tr><td port="PermissionSet" align="left">PermissionSet</td>
                                    <td>301</td>
                                </tr>   <tr><td port="PermissionSetAssignment" align="left">PermissionSetAssignment</td>
-                                   <td>63</td>
+                                   <td>64</td>
                                </tr>   <tr><td port="PermissionSetGroup" align="left">PermissionSetGroup</td>
                                    <td>20</td>
                                </tr>   <tr><td port="PermissionSetLicense" align="left">PermissionSetLicense</td>
@@ -551,7 +551,29 @@
             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >
                <tr><td colspan="3" bgcolor="lightblue"><b>packages</b></td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"Pardot"</td>
+                                        <td>"GoogleConnector"</td>
+                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
+                                        <td>true</td>
+                                    </tr> </table>
+                </td></tr><tr><td colspan="2">
+                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
+                                        <td>"EinsteinBuilder"</td>
+                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
+                                        <td>true</td>
+                                    </tr> </table>
+                </td></tr><tr><td colspan="2">
+                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
+                                        <td>"ExternalEmail"</td>
+                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
+                                        <td>true</td>
+                                    </tr> </table>
+                </td></tr><tr><td colspan="2">
+                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
+                                        <td>"<local>"</td>
+                                    </tr> </table>
+                </td></tr><tr><td colspan="2">
+                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
+                                        <td>"Gridforce"</td>
                                     </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
                                         <td>true</td>
                                     </tr> </table>
@@ -563,31 +585,7 @@
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"Limits"</td>
-                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
-                                        <td>true</td>
-                                    </tr> </table>
-                </td></tr><tr><td colspan="2">
-                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"EmailStream"</td>
-                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
-                                        <td>true</td>
-                                    </tr> </table>
-                </td></tr><tr><td colspan="2">
-                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"EinsteinALM"</td>
-                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
-                                        <td>true</td>
-                                    </tr> </table>
-                </td></tr><tr><td colspan="2">
-                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"GoogleConnector"</td>
-                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
-                                        <td>true</td>
-                                    </tr> </table>
-                </td></tr><tr><td colspan="2">
-                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"JigsawClean"</td>
+                                        <td>"EinsteinDataDiscovery"</td>
                                     </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
                                         <td>true</td>
                                     </tr> </table>
@@ -597,19 +595,17 @@
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"MetadataCatalog"</td>
+                                        <td>"Salesforce"</td>
+                                    </tr> </table>
+                </td></tr><tr><td colspan="2">
+                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
+                                        <td>"HawkingAppIntegration"</td>
                                     </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
                                         <td>true</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"EinsteinAppAnalytics"</td>
-                                    </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
-                                        <td>true</td>
-                                    </tr> </table>
-                </td></tr><tr><td colspan="2">
-                            <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Name" align="left">Name</td>
-                                        <td>"EinsteinDataDiscovery"</td>
+                                        <td>"SocialCustomerService"</td>
                                     </tr>   <tr><td port="IsSalesforce" align="left">IsSalesforce</td>
                                         <td>true</td>
                                     </tr> </table>
@@ -652,7 +648,7 @@
                                </tr>   <tr><td port="DailyAnalyticsUploadedFilesSizeMB" align="left">DailyAnalyticsUploadedFilesSizeMB</td>
                                    <td>{"Max":102400,"Remaining":102400}</td>
                                </tr>   <tr><td port="DailyApiRequests" align="left">DailyApiRequests</td>
-                                   <td>{"Max":5000000,"Remaining":4999627}</td>
+                                   <td>{"Max":5000000,"Remaining":4999968}</td>
                                </tr>   <tr><td port="DailyAsyncApexExecutions" align="left">DailyAsyncApexExecutions</td>
                                    <td>{"Max":250000,"Remaining":250000}</td>
                                </tr>   <tr><td port="DailyAsyncApexTests" align="left">DailyAsyncApexTests</td>
@@ -3027,7 +3023,7 @@
                                     </tr>   <tr><td port="UsedLicenses" align="left">UsedLicenses</td>
                                         <td>1</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3043,7 +3039,7 @@
                                     </tr>   <tr><td port="UsedLicenses" align="left">UsedLicenses</td>
                                         <td>14</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3057,7 +3053,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3073,7 +3069,7 @@
                                     </tr>   <tr><td port="UsedLicenses" align="left">UsedLicenses</td>
                                         <td>1</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3089,7 +3085,7 @@
                                     </tr>   <tr><td port="UsedLicenses" align="left">UsedLicenses</td>
                                         <td>1</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3103,7 +3099,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3117,7 +3113,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3131,7 +3127,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3143,7 +3139,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Disabled"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3157,7 +3153,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3173,7 +3169,7 @@
                                     </tr>   <tr><td port="UsedLicenses" align="left">UsedLicenses</td>
                                         <td>1</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3187,7 +3183,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3201,7 +3197,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3215,7 +3211,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="Id" align="left">Id</td>
@@ -3229,7 +3225,7 @@
                                     </tr>   <tr><td port="Status" align="left">Status</td>
                                         <td>"Active"</td>
                                     </tr>   <tr><td port="UsedLicensesLastUpdated" align="left">UsedLicensesLastUpdated</td>
-                                        <td>"2025-07-15T14:58:46.000+0000"</td>
+                                        <td>"2025-07-21T16:36:24.000+0000"</td>
                                     </tr> </table>
                 </td></tr></table>
         >
@@ -3259,9 +3255,9 @@
                                     </tr>   <tr><td port="AppName" align="left">AppName</td>
                                         <td>"Copado DevOps (N.A.)"</td>
                                     </tr>   <tr><td port="LastUsedDate" align="left">LastUsedDate</td>
-                                        <td>"2025-07-15T04:02:09.000+0000"</td>
+                                        <td>"2025-07-17T16:11:35.000+0000"</td>
                                     </tr>   <tr><td port="UseCount" align="left">UseCount</td>
-                                        <td>8</td>
+                                        <td>9</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="UserId" align="left">UserId</td>
@@ -3279,9 +3275,9 @@
                                     </tr>   <tr><td port="AppName" align="left">AppName</td>
                                         <td>"Salesforce CLI"</td>
                                     </tr>   <tr><td port="LastUsedDate" align="left">LastUsedDate</td>
-                                        <td>"2025-07-15T07:19:27.000+0000"</td>
+                                        <td>"2025-07-21T16:23:21.000+0000"</td>
                                     </tr>   <tr><td port="UseCount" align="left">UseCount</td>
-                                        <td>40</td>
+                                        <td>52</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="UserId" align="left">UserId</td>
@@ -3289,9 +3285,9 @@
                                     </tr>   <tr><td port="AppName" align="left">AppName</td>
                                         <td>"Salesforce CLI"</td>
                                     </tr>   <tr><td port="LastUsedDate" align="left">LastUsedDate</td>
-                                        <td>"2025-07-15T14:38:40.000+0000"</td>
+                                        <td>"2025-07-21T16:36:08.000+0000"</td>
                                     </tr>   <tr><td port="UseCount" align="left">UseCount</td>
-                                        <td>7</td>
+                                        <td>9</td>
                                     </tr> </table>
                 </td></tr><tr><td colspan="2">
                             <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >    <tr><td port="UserId" align="left">UserId</td>
@@ -3299,9 +3295,9 @@
                                     </tr>   <tr><td port="AppName" align="left">AppName</td>
                                         <td>"Salesforce CLI"</td>
                                     </tr>   <tr><td port="LastUsedDate" align="left">LastUsedDate</td>
-                                        <td>"2025-07-14T19:17:24.000+0000"</td>
+                                        <td>"2025-07-19T08:17:50.000+0000"</td>
                                     </tr>   <tr><td port="UseCount" align="left">UseCount</td>
-                                        <td>6</td>
+                                        <td>12</td>
                                     </tr> </table>
                 </td></tr></table>
         >
