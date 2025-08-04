@@ -46,7 +46,7 @@
         },
         "DailyApiRequests": {
             "Max": 5000000,
-            "Remaining": 4999968
+            "Remaining": 4999943
         },
         "DailyAsyncApexExecutions": {
             "Max": 250000,
@@ -126,7 +126,7 @@
         },
         "DataStorageMB": {
             "Max": 200,
-            "Remaining": 200
+            "Remaining": 197
         },
         "DurableStreamingApiConcurrentClients": {
             "Max": 2000,
@@ -214,10 +214,10 @@
         },
         "PermissionSets": {
             "Max": 1500,
-            "Remaining": 1486,
+            "Remaining": 1485,
             "CreateCustom": {
                 "Max": 1000,
-                "Remaining": 986
+                "Remaining": 985
             }
         },
         "PlatformEventTriggersWithParallelProcessing": {
@@ -244,25 +244,25 @@
     "metadataCount": {
         "ApexClass": 474,
         "ApexPage": 36,
-        "ConnectedApplication": 10,
+        "ConnectedApplication": 12,
         "CustomPermission": 3,
         "ExternalDataSource": 0,
-        "FieldPermissions": 25370,
+        "FieldPermissions": 27607,
         "FieldSecurityClassification": 5,
         "Group": 10,
         "GroupMember": 7,
         "NamedCredential": 0,
-        "ObjectPermissions": 12044,
+        "ObjectPermissions": 13075,
         "PackageLicense": 5,
-        "PermissionSet": 301,
-        "PermissionSetAssignment": 64,
+        "PermissionSet": 302,
+        "PermissionSetAssignment": 73,
         "PermissionSetGroup": 20,
         "PermissionSetLicense": 156,
         "Profile": 29,
         "QueueSobject": 0,
         "SetupAssistantStep": 0,
-        "SetupEntityAccess": 11724,
-        "User": 24,
+        "SetupEntityAccess": 11725,
+        "User": 29,
         "UserLicense": 15,
         "UserPackageLicense": 0,
         "UserRole": 2
@@ -299,58 +299,32 @@
     "packages": [
         {
             "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/GoogleConnector"
+                "type": "Publisher"
             },
-            "Name": "GoogleConnector",
-            "IsSalesforce": true
+            "Name": "Jonathan Gillespie",
+            "IsSalesforce": false
         },
         {
             "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinBuilder"
+                "type": "Publisher"
             },
-            "Name": "EinsteinBuilder",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/ExternalEmail"
-            },
-            "Name": "ExternalEmail",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/%3Clocal%3E"
-            },
-            "Name": "<local>",
+            "Name": "salesforce.com",
             "IsSalesforce": false
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Gridforce"
+                "url": "/services/data/v64.0/sobjects/Publisher/PlatformEventMetricsType"
             },
-            "Name": "Gridforce",
+            "Name": "PlatformEventMetricsType",
             "IsSalesforce": true
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/EventLogFiles"
+                "url": "/services/data/v64.0/sobjects/Publisher/HawkingAppIntegration"
             },
-            "Name": "EventLogFiles",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinDataDiscovery"
-            },
-            "Name": "EinsteinDataDiscovery",
+            "Name": "HawkingAppIntegration",
             "IsSalesforce": true
         },
         {
@@ -364,25 +338,9 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/ssot"
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinALM"
             },
-            "Name": "Salesforce",
-            "IsSalesforce": false
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/HawkingAppIntegration"
-            },
-            "Name": "HawkingAppIntegration",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/SocialCustomerService"
-            },
-            "Name": "SocialCustomerService",
+            "Name": "EinsteinALM",
             "IsSalesforce": true
         },
         {
@@ -392,6 +350,46 @@
             },
             "Name": "Salesforce",
             "IsSalesforce": false
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinAgent"
+            },
+            "Name": "EinsteinAgent",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Radian6Community"
+            },
+            "Name": "Radian6Community",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/UddCache"
+            },
+            "Name": "UddCache",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Conduit"
+            },
+            "Name": "Conduit",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Radian6"
+            },
+            "Name": "Radian6",
+            "IsSalesforce": true
         }
     ],
     "EDSAccount": {
@@ -724,8 +722,8 @@
             },
             "UserId": "005au000002UkkEAAS",
             "AppName": "Copado DevOps (N.A.)",
-            "LastUsedDate": "2025-07-17T16:11:35.000+0000",
-            "UseCount": 9
+            "LastUsedDate": "2025-07-29T15:16:50.000+0000",
+            "UseCount": 14
         },
         {
             "attributes": {
@@ -734,8 +732,8 @@
             },
             "UserId": "005au000002nQHxAAM",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-07-07T21:09:56.000+0000",
-            "UseCount": 2
+            "LastUsedDate": "2025-07-24T14:14:59.000+0000",
+            "UseCount": 3
         },
         {
             "attributes": {
@@ -744,8 +742,8 @@
             },
             "UserId": "005bZ000007oAnzQAE",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-07-21T16:23:21.000+0000",
-            "UseCount": 52
+            "LastUsedDate": "2025-08-04T13:52:48.000+0000",
+            "UseCount": 71
         },
         {
             "attributes": {
@@ -754,18 +752,28 @@
             },
             "UserId": "005bZ000007oEBpQAM",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-07-21T16:36:08.000+0000",
-            "UseCount": 9
+            "LastUsedDate": "2025-07-24T14:25:06.000+0000",
+            "UseCount": 10
         },
         {
             "attributes": {
                 "type": "OauthToken",
-                "url": "/services/data/v64.0/sobjects/OauthToken/0CQbZ0000007c6zWAA"
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQbZ0000007fmQWAQ"
             },
-            "UserId": "005bZ000007rZBhQAM",
+            "UserId": "005bZ000007oEBpQAM",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-07-19T08:17:50.000+0000",
-            "UseCount": 12
+            "LastUsedDate": "2025-08-04T18:44:24.000+0000",
+            "UseCount": 3
+        },
+        {
+            "attributes": {
+                "type": "OauthToken",
+                "url": "/services/data/v64.0/sobjects/OauthToken/0CQbZ0000007fmPWAQ"
+            },
+            "UserId": "005bZ000007qCnVQAU",
+            "AppName": "Okta SCIM",
+            "LastUsedDate": "2025-07-25T19:50:09.000+0000",
+            "UseCount": 1
         }
     ],
     "SetupAuditTrail": [
@@ -899,14 +907,6 @@
             },
             "Id": "00eau000001zigWAAQ",
             "Name": "Identity User"
-        },
-        {
-            "attributes": {
-                "type": "Profile",
-                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigXAAQ"
-            },
-            "Id": "00eau000001zigXAAQ",
-            "Name": "Minimum Access - Salesforce"
         },
         {
             "attributes": {
@@ -1093,6 +1093,14 @@
             },
             "Id": "00eau000001zigVAAQ",
             "Name": "Sales Insights Integration User"
+        },
+        {
+            "attributes": {
+                "type": "Profile",
+                "url": "/services/data/v64.0/sobjects/Profile/00eau000001zigXAAQ"
+            },
+            "Id": "00eau000001zigXAAQ",
+            "Name": "Minimum Access - Salesforce"
         },
         {
             "attributes": {
@@ -1947,6 +1955,16 @@
             },
             "Id": "0PSbZ000000Hd0FWAS",
             "Name": "Call_Centre_Team_Lead",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSbZ000000I5NpWAK"
+            },
+            "Id": "0PSbZ000000I5NpWAK",
+            "Name": "Integration_User",
             "ProfileId": null,
             "Profile": null
         },
@@ -4442,7 +4460,7 @@
             "TotalLicenses": 2,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4454,8 +4472,8 @@
             "LicenseDefinitionKey": "SFDC",
             "TotalLicenses": 274,
             "Status": "Active",
-            "UsedLicenses": 14,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicenses": 19,
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4468,7 +4486,7 @@
             "TotalLicenses": 10,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4481,7 +4499,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4494,7 +4512,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4507,7 +4525,7 @@
             "TotalLicenses": 5000,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4520,7 +4538,7 @@
             "TotalLicenses": 100,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4533,7 +4551,7 @@
             "TotalLicenses": 500,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4546,7 +4564,7 @@
             "TotalLicenses": 0,
             "Status": "Disabled",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4559,7 +4577,7 @@
             "TotalLicenses": 25,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4572,7 +4590,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4585,7 +4603,7 @@
             "TotalLicenses": 601,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4598,7 +4616,7 @@
             "TotalLicenses": 100020,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4611,7 +4629,7 @@
             "TotalLicenses": 51,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         },
         {
             "attributes": {
@@ -4624,7 +4642,7 @@
             "TotalLicenses": 31260,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-07-21T16:36:24.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:44:38.000+0000"
         }
     ],
     "EinsteinDataDiscovery": {
