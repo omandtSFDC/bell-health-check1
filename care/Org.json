@@ -46,7 +46,7 @@
         },
         "DailyApiRequests": {
             "Max": 5000000,
-            "Remaining": 4991567
+            "Remaining": 4991449
         },
         "DailyAsyncApexExecutions": {
             "Max": 250000,
@@ -162,7 +162,7 @@
         },
         "HourlyLongTermIdMapping": {
             "Max": 100000,
-            "Remaining": 100000
+            "Remaining": 99996
         },
         "HourlyManagedContentPublicRequests": {
             "Max": 50000,
@@ -300,15 +300,15 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Evernote"
+                "url": "/services/data/v64.0/sobjects/Publisher/Gridforce"
             },
-            "Name": "Evernote",
+            "Name": "Gridforce",
             "IsSalesforce": true
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/OIQ"
+                "url": "/services/data/v64.0/sobjects/Publisher/omnistudio"
             },
             "Name": "Salesforce",
             "IsSalesforce": false
@@ -316,17 +316,65 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/UddCache"
+                "url": "/services/data/v64.0/sobjects/Publisher/Radian6Service"
             },
-            "Name": "UddCache",
+            "Name": "Radian6Service",
             "IsSalesforce": true
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Archive"
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinAppAnalytics"
             },
-            "Name": "Archive",
+            "Name": "EinsteinAppAnalytics",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Pliny"
+            },
+            "Name": "Pliny",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/KnowledgeGeneration"
+            },
+            "Name": "KnowledgeGeneration",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/%3Clocal%3E"
+            },
+            "Name": "<local>",
+            "IsSalesforce": false
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/ExternalEmail"
+            },
+            "Name": "ExternalEmail",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/MyTrailhead"
+            },
+            "Name": "MyTrailhead",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/Evernote"
+            },
+            "Name": "Evernote",
             "IsSalesforce": true
         },
         {
@@ -340,56 +388,9 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/vcs"
+                "url": "/services/data/v64.0/sobjects/Publisher/Deskcom"
             },
-            "Name": "vcs",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/JigsawClean"
-            },
-            "Name": "JigsawClean",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/ssot"
-            },
-            "Name": "Salesforce",
-            "IsSalesforce": false
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/GenieDataModelRecs"
-            },
-            "Name": "GenieDataModelRecs",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Limits"
-            },
-            "Name": "Limits",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher"
-            },
-            "Name": "Mitch Spano",
-            "IsSalesforce": false
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/KnowledgeGeneration"
-            },
-            "Name": "KnowledgeGeneration",
+            "Name": "Deskcom",
             "IsSalesforce": true
         }
     ],
@@ -462,22 +463,22 @@
     "EDSOpportunity": {
         "attributes": {
             "type": "EntityDefinition",
-            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/Opportunity"
+            "url": "/services/data/v64.0/tooling/sobjects/EntityDefinition/01Iau000000bhsQ"
         },
         "DetailUrl": "/{ID}",
         "DeveloperName": "Opportunity",
-        "InternalSharingModel": "Read",
+        "InternalSharingModel": "ReadWrite",
         "ExternalSharingModel": "Private",
         "IsFieldHistoryTracked": false,
         "IsFlsEnabled": true,
         "IsIdEnabled": true,
-        "IsLayoutable": true,
-        "IsMruEnabled": true,
+        "IsLayoutable": false,
+        "IsMruEnabled": false,
         "IsQueryable": true,
         "IsRetrieveable": true,
-        "IsSearchable": true,
-        "KeyPrefix": "006",
-        "Label": "Opportunity",
+        "IsSearchable": false,
+        "KeyPrefix": "h00",
+        "Label": "Opportunity (Historical)",
         "MasterLabel": "Opportunity",
         "NamespacePrefix": null
     },
@@ -17349,7 +17350,7 @@
             "TotalLicenses": 2,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17362,7 +17363,7 @@
             "TotalLicenses": 274,
             "Status": "Active",
             "UsedLicenses": 28,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17375,7 +17376,7 @@
             "TotalLicenses": 10,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17388,7 +17389,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17401,7 +17402,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17414,7 +17415,7 @@
             "TotalLicenses": 5000,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17427,7 +17428,7 @@
             "TotalLicenses": 100,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17440,7 +17441,7 @@
             "TotalLicenses": 500,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17453,7 +17454,7 @@
             "TotalLicenses": 0,
             "Status": "Disabled",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17466,7 +17467,7 @@
             "TotalLicenses": 25,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17479,7 +17480,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17492,7 +17493,7 @@
             "TotalLicenses": 601,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17505,7 +17506,7 @@
             "TotalLicenses": 100020,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17518,7 +17519,7 @@
             "TotalLicenses": 51,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         },
         {
             "attributes": {
@@ -17531,7 +17532,7 @@
             "TotalLicenses": 31260,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-04T18:27:43.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-04T18:55:17.000+0000"
         }
     ],
     "EinsteinDataDiscovery": {
