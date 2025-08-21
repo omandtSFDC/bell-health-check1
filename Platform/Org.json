@@ -46,15 +46,15 @@
         },
         "DailyApiRequests": {
             "Max": 5000000,
-            "Remaining": 4999891
+            "Remaining": 4999060
         },
         "DailyAsyncApexExecutions": {
             "Max": 250000,
             "Remaining": 250000
         },
         "DailyAsyncApexTests": {
-            "Max": 3840,
-            "Remaining": 3840
+            "Max": 3860,
+            "Remaining": 3860
         },
         "DailyBulkApiBatches": {
             "Max": 15000,
@@ -214,10 +214,10 @@
         },
         "PermissionSets": {
             "Max": 1500,
-            "Remaining": 1485,
+            "Remaining": 1484,
             "CreateCustom": {
                 "Max": 1000,
-                "Remaining": 985
+                "Remaining": 984
             }
         },
         "PlatformEventTriggersWithParallelProcessing": {
@@ -242,27 +242,27 @@
         }
     },
     "metadataCount": {
-        "ApexClass": 474,
+        "ApexClass": 476,
         "ApexPage": 36,
         "ConnectedApplication": 12,
         "CustomPermission": 3,
         "ExternalDataSource": 0,
-        "FieldPermissions": 27632,
+        "FieldPermissions": 28004,
         "FieldSecurityClassification": 5,
         "Group": 10,
         "GroupMember": 7,
-        "NamedCredential": 0,
-        "ObjectPermissions": 13084,
+        "NamedCredential": 1,
+        "ObjectPermissions": 13108,
         "PackageLicense": 5,
-        "PermissionSet": 302,
-        "PermissionSetAssignment": 80,
+        "PermissionSet": 303,
+        "PermissionSetAssignment": 102,
         "PermissionSetGroup": 20,
         "PermissionSetLicense": 156,
         "Profile": 29,
         "QueueSobject": 0,
         "SetupAssistantStep": 0,
-        "SetupEntityAccess": 11748,
-        "User": 36,
+        "SetupEntityAccess": 11751,
+        "User": 40,
         "UserLicense": 15,
         "UserPackageLicense": 0,
         "UserRole": 2
@@ -275,8 +275,8 @@
         "CampaignMember": 0,
         "Case": 0,
         "CaseStatus": 4,
-        "Contact": 20,
-        "Contract": 0,
+        "Contact": 21,
+        "Contract": 11,
         "ContractContactRole": 0,
         "Lead": 0,
         "Opportunity": 0,
@@ -293,34 +293,10 @@
         "CaseComment": 0,
         "CaseHistory": 0,
         "CaseSolution": 0,
-        "Contact": 20,
+        "Contact": 21,
         "Solution": 0
     },
     "packages": [
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/AsyncQuery"
-            },
-            "Name": "AsyncQuery",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Lma"
-            },
-            "Name": "Lma",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/cdpactvstrgptnr"
-            },
-            "Name": "Salesforce",
-            "IsSalesforce": false
-        },
         {
             "attributes": {
                 "type": "Publisher",
@@ -332,17 +308,9 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/UddCache"
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinAgent"
             },
-            "Name": "UddCache",
-            "IsSalesforce": true
-        },
-        {
-            "attributes": {
-                "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/SfdcTestPackage"
-            },
-            "Name": "SfdcTestPackage",
+            "Name": "EinsteinAgent",
             "IsSalesforce": true
         },
         {
@@ -356,40 +324,70 @@
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Deskcom"
+                "url": "/services/data/v64.0/sobjects/Publisher/HawkingAppIntegration"
             },
-            "Name": "Deskcom",
+            "Name": "HawkingAppIntegration",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher"
+            },
+            "Name": "Jonathan Gillespie",
+            "IsSalesforce": false
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/RyppleCorp"
+            },
+            "Name": "RyppleCorp",
             "IsSalesforce": true
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/ssot"
+                "url": "/services/data/v64.0/sobjects/Publisher/GenieDataModelRecs"
             },
-            "Name": "Salesforce",
+            "Name": "GenieDataModelRecs",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher",
+                "url": "/services/data/v64.0/sobjects/Publisher/GoogleConnector"
+            },
+            "Name": "GoogleConnector",
+            "IsSalesforce": true
+        },
+        {
+            "attributes": {
+                "type": "Publisher"
+            },
+            "Name": "salesforce.com",
             "IsSalesforce": false
         },
         {
             "attributes": {
                 "type": "Publisher"
             },
-            "Name": "Salesforce Success Programs",
+            "Name": "Mitch Spano",
             "IsSalesforce": false
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/Conduit"
+                "url": "/services/data/v64.0/sobjects/Publisher/Pardot"
             },
-            "Name": "Conduit",
+            "Name": "Pardot",
             "IsSalesforce": true
         },
         {
             "attributes": {
                 "type": "Publisher",
-                "url": "/services/data/v64.0/sobjects/Publisher/PlatformMonitoring"
+                "url": "/services/data/v64.0/sobjects/Publisher/EinsteinIntelligentOffers"
             },
-            "Name": "PlatformMonitoring",
+            "Name": "EinsteinIntelligentOffers",
             "IsSalesforce": true
         }
     ],
@@ -701,7 +699,449 @@
         "MasterLabel": "Order",
         "NamespacePrefix": null
     },
-    "ApexCodeCoverage": [],
+    "ApexCodeCoverage": [
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGddQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01pbZ000000Wq8LQAS",
+            "NumLinesCovered": 8,
+            "NumLinesUncovered": 3,
+            "Coverage": {
+                "coveredLines": [
+                    4,
+                    9,
+                    10,
+                    11,
+                    13,
+                    15,
+                    17,
+                    18
+                ],
+                "uncoveredLines": [
+                    21,
+                    24,
+                    27
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdeQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xeQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdfQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xgQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdgQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01pbZ000000Wq8LQAS",
+            "NumLinesCovered": 8,
+            "NumLinesUncovered": 3,
+            "Coverage": {
+                "coveredLines": [
+                    4,
+                    9,
+                    10,
+                    11,
+                    13,
+                    15,
+                    17,
+                    21
+                ],
+                "uncoveredLines": [
+                    18,
+                    24,
+                    27
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdhQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xfQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdiQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xiQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdjQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xfQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdkQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xgQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdlQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0ZTQA0",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    10
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdmQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xdQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdnQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xeQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdoQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xeQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdpQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0ZTQA0",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    10
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdqQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xhQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdrQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xgQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdsQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xdQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdtQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xfQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGduQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0ZTQA0",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    10
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdvQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xhQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdwQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xdQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdxQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01pbZ000000Wq8LQAS",
+            "NumLinesCovered": 2,
+            "NumLinesUncovered": 9,
+            "Coverage": {
+                "coveredLines": [
+                    4,
+                    27
+                ],
+                "uncoveredLines": [
+                    9,
+                    10,
+                    11,
+                    13,
+                    15,
+                    17,
+                    18,
+                    21,
+                    24
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdyQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithValidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xhQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGdzQAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testUpdateUser",
+            "ApexClassOrTriggerId": "01qbZ000002J0xiQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ApexCodeCoverage",
+                "url": "/services/data/v64.0/tooling/sobjects/ApexCodeCoverage/714bZ00000GhGe0QAF"
+            },
+            "ApexTestClassId": "01pbZ000000cVdtQAE",
+            "TestMethodName": "testCreateUserWithInvalidFederationId",
+            "ApexClassOrTriggerId": "01qbZ000002J0xiQAC",
+            "NumLinesCovered": 0,
+            "NumLinesUncovered": 1,
+            "Coverage": {
+                "coveredLines": [],
+                "uncoveredLines": [
+                    6
+                ]
+            }
+        }
+    ],
     "BusinessProcess": [],
     "Certificates": [],
     "CspTrustedSite": [],
@@ -723,8 +1163,8 @@
             },
             "UserId": "005au000002UkkEAAS",
             "AppName": "Copado DevOps (N.A.)",
-            "LastUsedDate": "2025-07-29T15:16:50.000+0000",
-            "UseCount": 14
+            "LastUsedDate": "2025-08-20T08:36:39.000+0000",
+            "UseCount": 16
         },
         {
             "attributes": {
@@ -743,8 +1183,8 @@
             },
             "UserId": "005bZ000007oAnzQAE",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-08-11T22:48:53.000+0000",
-            "UseCount": 79
+            "LastUsedDate": "2025-08-21T18:24:47.000+0000",
+            "UseCount": 91
         },
         {
             "attributes": {
@@ -763,8 +1203,8 @@
             },
             "UserId": "005bZ000007oEBpQAM",
             "AppName": "Salesforce CLI",
-            "LastUsedDate": "2025-08-12T15:16:14.000+0000",
-            "UseCount": 5
+            "LastUsedDate": "2025-08-21T18:58:41.000+0000",
+            "UseCount": 7
         },
         {
             "attributes": {
@@ -1966,6 +2406,16 @@
             },
             "Id": "0PSbZ000000I5NpWAK",
             "Name": "Integration_User",
+            "ProfileId": null,
+            "Profile": null
+        },
+        {
+            "attributes": {
+                "type": "PermissionSet",
+                "url": "/services/data/v64.0/sobjects/PermissionSet/0PSbZ000000JVWLWA4"
+            },
+            "Id": "0PSbZ000000JVWLWA4",
+            "Name": "CLM",
             "ProfileId": null,
             "Profile": null
         },
@@ -4464,6 +4914,14 @@
             },
             "Id": "005bZ000008o4YmQAI",
             "Name": "Praveen Kumar"
+        },
+        {
+            "attributes": {
+                "type": "User",
+                "url": "/services/data/v64.0/sobjects/User/005bZ000008w06wQAA"
+            },
+            "Id": "005bZ000008w06wQAA",
+            "Name": "Saru Ponn"
         }
     ],
     "userLicense": [
@@ -4478,7 +4936,7 @@
             "TotalLicenses": 2,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4490,8 +4948,8 @@
             "LicenseDefinitionKey": "SFDC",
             "TotalLicenses": 274,
             "Status": "Active",
-            "UsedLicenses": 24,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicenses": 25,
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4504,7 +4962,7 @@
             "TotalLicenses": 10,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4517,7 +4975,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4530,7 +4988,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4543,7 +5001,7 @@
             "TotalLicenses": 5000,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4556,7 +5014,7 @@
             "TotalLicenses": 100,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4569,7 +5027,7 @@
             "TotalLicenses": 500,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4582,7 +5040,7 @@
             "TotalLicenses": 0,
             "Status": "Disabled",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4595,7 +5053,7 @@
             "TotalLicenses": 25,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4608,7 +5066,7 @@
             "TotalLicenses": 1,
             "Status": "Active",
             "UsedLicenses": 1,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4621,7 +5079,7 @@
             "TotalLicenses": 601,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4634,7 +5092,7 @@
             "TotalLicenses": 100020,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4647,7 +5105,7 @@
             "TotalLicenses": 51,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         },
         {
             "attributes": {
@@ -4660,7 +5118,7 @@
             "TotalLicenses": 31260,
             "Status": "Active",
             "UsedLicenses": 0,
-            "UsedLicensesLastUpdated": "2025-08-12T15:16:28.000+0000"
+            "UsedLicensesLastUpdated": "2025-08-21T18:58:55.000+0000"
         }
     ],
     "EinsteinDataDiscovery": {
